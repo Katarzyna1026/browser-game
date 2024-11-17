@@ -1,0 +1,264 @@
+html
+{
+	background-image: url("../img/tlo.png");
+	color: lightgray;
+	font-family: 'Inconsolata';
+	font-weight: 700;
+	height: 100%;
+	margin: 0px !important; 
+	}
+	
+body
+{
+	color: lightgray;
+	font-size: 20px;
+	font-family: 'Inconsolata';
+	font-weight: 700;
+	height: 95%;
+	margin: 0px !important;
+}
+
+#pojemnik
+{
+	width: 90%;
+	min-height: 523px;
+	height: 100%;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+nav
+{
+	background-color: #0066ff;
+	height: 34px;
+	text-align: center;
+	font: 24px;
+	border-bottom: 1px solid #004EC3;
+	padding: 5px;
+}
+
+ol
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	display: inline-block;
+}
+
+ol a
+{
+	text-decoration: none;
+	display: block;
+	color: white;
+	
+}
+
+ol > li
+{
+	padding: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+	width: 100px;
+	height: 25px;
+	border-right: 2px double #004EC3;
+}
+
+ol > li:first-child
+{
+	border-left: 2px double #004EC3;
+}
+
+ol > li:hover
+{
+	background-color: #61B5FE;
+}
+
+ol > li:hover > a
+{
+	color: #004EC3;
+}
+
+#logo
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#kategoria
+{
+	max-width: 1000px;
+	padding: 10px;
+	text-transform:uppercase;
+	background-color: black;
+	font-size: 30px;
+	color: #61B5FE;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#plansza
+{
+	text-align: center;
+	font-size: 42px;
+	min-height: 50px;
+	background-color: #000000;
+	padding: 4px;
+	margin-bottom: 40px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pudlo
+{
+	padding-left: 10%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#szubienica
+{
+	float: left;
+	width: 480px;
+	text-align: center;
+	min-height: 280px;
+	background-color: #000000;
+	margin-right: auto;
+}
+
+#alfabet
+{
+	float: left;
+	text-align: center;
+	min-height: 280px;
+	background-color: #000000;
+	margin-right: auto;
+}
+
+.litera
+{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 25px;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid gray;
+	float: left;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.litera:hover
+{
+	background-color: #222222;
+	color: white;
+	border: 3px solid white;
+}
+
+.reset
+{
+	display: block;
+	width: 440px;
+	color: green;
+	cursor: pointer;
+	font-size: 48px;
+}
+
+.reset:hover
+{
+	font-size: 54px;
+}
+
+#end
+{
+	width: 440px;
+	color: red;
+	font-size: 60px;
+}
+
+.end
+{
+	display: block;
+	width: 440px;
+	color: red;
+	cursor: pointer;
+	font-size: 48px;
+}
+
+.end:hover
+{
+	font-size: 54px;
+}
+
+#pudlo
+{
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000000;
+}
+
+#square
+{
+	width: 900px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 30%;
+}
+
+#guzik
+{
+	width: 170px;
+	height: 60px;
+	margin: 10px;
+	padding: 10px;
+	background-color: #0066ff;
+	color: white;
+	font-size: 25px;
+	cursor: pointer;
+	border-radius: 15px;
+	border: 1px solid #004EC3;
+	float: left;
+}
+
+#guzik:hover
+{
+	background-color: #61B5FE;
+	border: 1px solid #004EC3;
+	color: #004EC3;
+}
+
+#kat
+{
+	width: 160px;
+	margin: 10px;
+	padding: 20px;
+	color:  #004EC3;
+	font-size: 25px;
+	float: left;
+	border-radius: 100px;
+}
+
+a:hover
+{
+	text-decoration: none;
+	display: block;
+	color:white;
+}
+
+a
+{
+	text-decoration: none;
+	display: block;
+	color: #004EC3;
+}
